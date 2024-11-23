@@ -1,0 +1,28 @@
+# Exclude the virtual environment
+.venv/
+
+# Exclude Python temporary files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude VS Code configuration files
+.vscode/
+
+# Exclude environment-specific configuration files
+.env
+*.env
+
+# Exclude log files
+*.log
+
+# Exclude installation-related files and folders
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Exclude other unnecessary files
+.DS_Store
+Thumbs.db
